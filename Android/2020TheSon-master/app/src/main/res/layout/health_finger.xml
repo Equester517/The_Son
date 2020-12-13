@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="match_parent"
+                    android:layout_height="69dp"
+                    android:fontFamily="@font/murucmuruc"
+                    android:text="@string/health1"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/i1"
+                    android:layout_width="407dp"
+                    android:layout_height="450dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/margin_medium"
+                    app:srcCompat="@drawable/finger1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="406dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:fontFamily="@font/murucmuruc"
+                    android:text="@string/health2"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/i2"
+                    android:layout_width="269dp"
+                    android:layout_height="457dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/margin_medium"
+                    app:srcCompat="@drawable/finger2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="399dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="69dp"
+                    android:fontFamily="@font/murucmuruc"
+                    android:text="@string/health3"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/i3"
+                    android:layout_width="278dp"
+                    android:layout_height="459dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/margin_medium"
+                    app:srcCompat="@drawable/finger3" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="397dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:fontFamily="@font/murucmuruc"
+                    android:text="@string/health4"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/i4"
+                    android:layout_width="268dp"
+                    android:layout_height="465dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/margin_medium"
+                    app:srcCompat="@drawable/finger4" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="402dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="69dp"
+                    android:fontFamily="@font/murucmuruc"
+                    android:text="@string/health5"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/i5"
+                    android:layout_width="284dp"
+                    android:layout_height="459dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/margin_medium"
+                    app:srcCompat="@drawable/finger5" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="384dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t6"
+                    android:layout_width="match_parent"
+                    android:layout_height="69dp"
+                    android:fontFamily="@font/murucmuruc"
+                    android:text="@string/health6"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/i6"
+                    android:layout_width="286dp"
+                    android:layout_height="459dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/margin_medium"
+                    app:srcCompat="@drawable/finger6" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
